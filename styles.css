@@ -1,0 +1,107 @@
+﻿body {
+    background: linear-gradient(to bottom, #02749a, #0b56c5, #023b92);
+    color: white;
+    font-size: 102%;
+    font-weight: normal;
+    margin: 0;
+    border: 20px solid rgb(2, 108, 98);
+    padding: 20px;
+}
+
+.vinculo {
+    color: red;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container svg {
+    color: white;
+}
+
+#container {
+    width: 100%;
+    margin-top: 50px;
+    color: white;
+}
+
+#pageheader {
+    display: table;
+    width: 80%;
+    margin: auto;
+    font-size: 120%;
+    position: relative;
+}
+
+#pageheader img {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.section {
+    width: 80%;
+    border-top: 1px solid white;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.slider-container {
+    text-align: center;
+}
+
+.textoBajoImagen {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.imagenes img {
+    width: 350px;
+    height: 350px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleIndicators {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.pageitem {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.pageitem h2 {
+    font-size: 180%;
+    background-color: inherit;
+    color: yellow;
+    margin-top: 0;
+    font-style: oblique;
+}
+
+.pageitem p {
+    padding: 0;
+    margin: 1em 0;
+    font-size: 115%;
+    line-height: 175%;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
